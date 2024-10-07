@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Microservices Dashboard</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{% url 'microservice1' %}">Microservice 1</a></li>
+            <li><a href="{% url 'microservice2' %}">Microservice 2</a></li>
+        </ul>
+    </nav>
+    <div>
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
